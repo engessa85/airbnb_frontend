@@ -1,9 +1,11 @@
 import Image from "next/image";
+import Categories from "./components/Categories";
 
 export default function Home() {
   return (
-    <div className="m-auto max-w-[400px] text-center bg-slate-400 mt-[100px] text-lg">
-      
-    </div>
+    <main>
+      <Categories />
+    </main>
+    
   );
 }
